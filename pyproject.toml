@@ -3,7 +3,7 @@ name = "niar"
 version = "0.1.3"
 description = "A small framework for building projects with Amaranth"
 authors = [
-    { name = "Asherah Connor", email = "ashe@kivikakk.ee" },
+    { name = "Charlotte", email = "charlotte@lottia.net" },
 ]
 dependencies = [
     "amaranth[builtin-yosys] >= 0.5",
@@ -13,7 +13,7 @@ license = { text = "BSD-2-Clause" }
 readme = "README.md"
 
 [project.urls]
-Homepage = "https://sr.ht/~kivikakk/niar"
+Homepage = "https://github.com/charlottia/niar"
 
 [build-system]
 requires = ["pdm-backend"]

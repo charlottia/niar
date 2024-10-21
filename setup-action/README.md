@@ -1,4 +1,4 @@
-# kivikakk/niar/setup-action
+# charlottia/niar/setup-action
 
 Use after cloning your project repository. You'll need to specify Niar as a
 dependency, and any HEAD versions of Amaranth et al. needed.
@@ -6,7 +6,7 @@ dependency, and any HEAD versions of Amaranth et al. needed.
 Usage:
 
 ```yaml
-- uses: kivikakk/niar/setup-action@main
+- uses: charlottia/niar/setup-action@main
   with:
     install-oss-cad-suite: true
     github-token: ${{ secrets.GITHUB_TOKEN }}

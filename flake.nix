@@ -21,7 +21,7 @@
           amaranth = prev.amaranth.overridePythonAttrs {
             version = "0.6.0.dev52";
             src = pkgs.fetchFromGitHub {
-              owner = "kivikakk";
+              owner = "charlottia";
               repo = "amaranth";
               rev = "f8ea807a9108a99ec801d1f1e4b8e63019ec82ec";
               hash = "sha256-A46CMWGvqUFTp3geFFccUM9M7iECmNndzWm2GxA8XbE";
