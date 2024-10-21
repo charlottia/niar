@@ -23,8 +23,8 @@
             src = pkgs.fetchFromGitHub {
               owner = "charlottia";
               repo = "amaranth";
-              rev = "f8ea807a9108a99ec801d1f1e4b8e63019ec82ec";
-              hash = "sha256-A46CMWGvqUFTp3geFFccUM9M7iECmNndzWm2GxA8XbE";
+              rev = "e5644486fdae47c1372ef2a672b0249857694d66";
+              hash = "sha256-kg4rTBRSi+1oaxazRWnw7fhTvyQE96a6XjOgk0f2JQ0=";
             };
             doCheck = false; # uninit'd mem breaks lots of tests.
           };
