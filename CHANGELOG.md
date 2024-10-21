@@ -5,6 +5,14 @@
 New:
 
 * project: `NIAR_WORKING_DIRECTORY` can be used to override the origin.
+* project: `externals` can be specified to pull in Verilog/RTLIL to build and Verilog to CXXRTL.
+* project: extension `commands` can be added.
+
+Changed:
+
+* cxxrtl: don't show a Python backtrace when a build step fails. 
+* cxxrtl: don't show a Python backtrace when interrupting the running program.
+* build/cxxrtl: show failing commands' exit statuses.
 
 ## 0.1.2
 
