@@ -96,8 +96,8 @@
         inputsFrom = [packages.default];
       };
 
-      devShells.pure-python = pkgs.mkShell {
-        name = "niar-pure-python";
+      devShells.pdm = pkgs.mkShell {
+        name = "niar-pdm";
 
         buildInputs =
           [
